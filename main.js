@@ -35,4 +35,5 @@ app.once('ready', () => {
   })
   window.loadURL('about:blank')
   window.setTouchBar(touchBar)
+  fetchBitcoinPrice();
 })
