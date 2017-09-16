@@ -2,9 +2,6 @@ const {app, BrowserWindow, TouchBar} = require('electron')
 const request = require('request')
 const {TouchBarButton, TouchBarLabel, TouchBarSpacer} = TouchBar
 
-let spinning = false
-
-// Reel labels
 const bitcoinLabel = new TouchBarLabel({
   label: "Fetching BTC-USD..."
 })
